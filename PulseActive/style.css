@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #f5f7fa;
+    color: #2b2b2b;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #2f3338;
+}
+
+.logo {
+    font-size: 1.5em;
+    color: #9ad0ec;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+/* HERO */
+.hero {
+    height: 80vh;
+    background: linear-gradient(
+        rgba(47,51,56,0.7),
+        rgba(47,51,56,0.7)
+    ),
+    url('https://images.unsplash.com/photo-1558611848-73f7eb4001a1');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.hero-content {
+    max-width: 600px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.btn {
+    display: inline-block;
+    background: #9ad0ec;
+    color: #2f3338;
+    padding: 12px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* FEATURES */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 30px;
+    padding: 60px 40px;
+    background: white;
+}
+
+.feature {
+    padding: 20px;
+}
+
+/* MEMBERSHIP */
+.membership {
+    padding: 60px 40px;
+    background: #eef2f6;
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.plan {
+    background: white;
+    padding: 30px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.highlight {
+    border: 2px solid #9ad0ec;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #2f3338;
+}
+
+/* CONTACT */
+.contact {
+    padding: 60px 40px;
+    background: white;
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    margin: 10px auto;
+    display: block;
+}
+
+button {
+    background: #9ad0ec;
+    border: none;
+    padding: 12px 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background: #2f3338;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.section {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.dark {
+    background: #2f3338;
+    color: white;
+}
+
+.schedule {
+    margin: auto;
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 600px;
+}
+
+.schedule th, .schedule td {
+    border: 1px solid #9ad0ec;
+    padding: 12px;
+}
+
+.fade {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease;
+}
+
+.fade.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+input {
+    padding: 12px;
+    width: 250px;
+}

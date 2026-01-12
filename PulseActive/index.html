@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pulse Active | Premium Fitness</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">PulseActive</div>
+    <ul class="nav-links">
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#clubs">Clubs</a></li>
+        <li><a href="#membership">Membership</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<header class="hero fade">
+    <div class="hero-content">
+        <h1>Fitness That Fits Your Life</h1>
+        <p>Premium gyms. Expert trainers. Real results.</p>
+        <a href="#membership" class="btn">Join Now</a>
+    </div>
+</header>
+
+<section class="features fade">
+    <div class="feature">
+        <h3>Modern Facilities</h3>
+        <p>World-class equipment and clean spaces.</p>
+    </div>
+    <div class="feature">
+        <h3>Group Classes</h3>
+        <p>HIIT, Yoga, Strength, Spin and more.</p>
+    </div>
+    <div class="feature">
+        <h3>Personal Training</h3>
+        <p>Certified coaches to guide you.</p>
+    </div>
+</section>
+
+<!-- CLASSES -->
+<section id="classes" class="section dark fade">
+    <h2>Weekly Class Schedule</h2>
+    <table class="schedule">
+        <tr>
+            <th>Day</th><th>Class</th><th>Time</th>
+        </tr>
+        <tr><td>Monday</td><td>HIIT</td><td>06:00</td></tr>
+        <tr><td>Tuesday</td><td>Yoga</td><td>18:00</td></tr>
+        <tr><td>Wednesday</td><td>Spin</td><td>17:30</td></tr>
+        <tr><td>Thursday</td><td>Strength</td><td>06:30</td></tr>
+        <tr><td>Friday</td><td>Functional</td><td>16:30</td></tr>
+    </table>
+</section>
+
+<!-- CLUB FINDER -->
+<section id="clubs" class="section fade">
+    <h2>Find a Club Near You</h2>
+    <input type="text" id="locationInput" placeholder="Enter your city">
+    <button onclick="findClub()">Search</button>
+    <p id="clubResult"></p>
+</section>
+
+<!-- MEMBERSHIP -->
+<section id="membership" class="membership fade">
+    <h2>Membership Options</h2>
+    <div class="plans">
+        <div class="plan">
+            <h3>Flex</h3>
+            <p class="price">R499 / month</p>
+        </div>
+        <div class="plan highlight">
+            <h3>Premium</h3>
+            <p class="price">R699 / month</p>
+        </div>
+        <div class="plan">
+            <h3>Elite</h3>
+            <p class="price">R899 / month</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact fade">
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/yourID" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Pulse Active</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
