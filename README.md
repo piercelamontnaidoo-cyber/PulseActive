@@ -24,7 +24,7 @@ This project showcases modern web design techniques including:
 ## Credits
 
 - Layout & design inspired by Virgin Active  
-- Demo built by **[Your Name / PS Web Studio]**
+- Demo built by **PIERCE Web Studio]**
 
 ---
 
